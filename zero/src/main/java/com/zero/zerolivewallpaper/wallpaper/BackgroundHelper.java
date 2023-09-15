@@ -38,15 +38,19 @@ class BackgroundHelper {
 
                     // Sort array by name
                     Arrays.sort(layers);
+                    try {
+                        for (File layerFile : layers) {
 
-                    for (File layerFile : layers) {
-                        String zString = Utils.getBetweenStrings(layerFile.getPath(), id + "_", BG_FORMAT);
-                        int layerZ = Integer.parseInt(zString);
+                            String zString = Utils.getBetweenStrings(layerFile.getPath(), id + "_", BG_FORMAT);
+                            int layerZ = Integer.parseInt(zString);
 
-                        Layer layer = new Layer(layerFile, layerZ);
-                        output.add(layer);
+                            Layer layer = new Layer(layerFile, layerZ);
+                            output.add(layer);
 
-                        Log.d(TAG, "Layer with name " + layerFile.getName() + " loaded with z=" + layerZ);
+                            Log.d(TAG, "Layer with name " + layerFile.getName() + " loaded with z=" + layerZ);
+                        }
+                    }catch (Exception e){
+
                     }
                 } else {
                     Log.e(TAG, "Directory " + id + " is empty!");
