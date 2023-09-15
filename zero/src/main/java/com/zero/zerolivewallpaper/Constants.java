@@ -4,7 +4,7 @@ package com.zero.zerolivewallpaper;
 public class Constants {
 
     // System
-    public final static String URL_API = "https://github.com/lucasasselli/zero/blob/master/wallpapers/";
+    public final static String URL_API = "https://github.com/m834/4D-Wallpaper/blob/main/wallpapers/";
     public final static String PACKAGE_NAME = "com.zero.zerolivewallpaper";
     public final static String SERVICE_NAME = PACKAGE_NAME + ".wallpaper.MyWallpaperService";
 

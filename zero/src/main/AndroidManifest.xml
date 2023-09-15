@@ -56,7 +56,9 @@
                 android:name="android.service.wallpaper"
                 android:resource="@xml/wallpaper" />
         </service>
-
+        <service
+            android:name="com.zero.zerolivewallpaper.services.SyncManager"
+            android:enabled="true" />
         <activity
             android:name="com.zero.zerolivewallpaper.SetActivity"
             android:label="@string/set_title"
@@ -65,9 +67,7 @@
             android:name="com.zero.zerolivewallpaper.PreviewActivity"
             android:theme="@style/Zero.NoActionBar" />
 
-        <service
-            android:name="com.zero.zerolivewallpaper.services.SyncManager"
-            android:enabled="true" />
+
     </application>
 
 </manifest>
