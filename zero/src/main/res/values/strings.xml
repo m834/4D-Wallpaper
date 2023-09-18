@@ -53,8 +53,8 @@
     <string name="set_dialog_delete_title">Delete wallpaper</string>
     <string name="set_dialog_delete_message">Do you really want to delete this wallpaper? You can always download it later.</string>
 
-    <string name="set_dialog_notzero_title">Select Zero</string>
-    <string name="set_dialog_notzero_message">In order to work, Zero must be set as your live wallpaper. Do you want to set it now?</string>
+    <string name="set_dialog_notzero_title">Select Wallpaper</string>
+    <string name="set_dialog_notzero_message">In order to work, Wallpaper must be set as your live wallpaper. Do you want to set it now?</string>
 
     <string name="set_alert_changed">Wallpaper changed!</string>
 
