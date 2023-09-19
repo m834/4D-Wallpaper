@@ -104,36 +104,36 @@ public class SettingsActivity extends AppCompatActivity {
             });
 
             // Zoom
-            final Preference zoom = findPreference(getString(R.string.pref_zoom_key));
-            zoom.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-
-                    setSliderPref(
-                            sharedPreferences,
-                            R.string.pref_zoom_key,
-                            R.string.pref_zoom_title,
-                            R.string.pref_zoom_default);
-
-                    return false;
-                }
-            });
+//            final Preference zoom = findPreference(getString(R.string.pref_zoom_key));
+//            zoom.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+//                @Override
+//                public boolean onPreferenceClick(Preference preference) {
+//
+//                    setSliderPref(
+//                            sharedPreferences,
+//                            R.string.pref_zoom_key,
+//                            R.string.pref_zoom_title,
+//                            R.string.pref_zoom_default);
+//
+//                    return false;
+//                }
+//            });
 
             // Scroll amount
-            final Preference scroll_amount = findPreference(getString(R.string.pref_scroll_amount_key));
-            scroll_amount.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-
-                    setSliderPref(
-                            sharedPreferences,
-                            R.string.pref_scroll_amount_key,
-                            R.string.pref_scroll_amount_title,
-                            R.string.pref_scroll_amount_default);
-
-                    return false;
-                }
-            });
+//            final Preference scroll_amount = findPreference(getString(R.string.pref_scroll_amount_key));
+//            scroll_amount.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+//                @Override
+//                public boolean onPreferenceClick(Preference preference) {
+//
+//                    setSliderPref(
+//                            sharedPreferences,
+//                            R.string.pref_scroll_amount_key,
+//                            R.string.pref_scroll_amount_title,
+//                            R.string.pref_scroll_amount_default);
+//
+//                    return false;
+//                }
+//            });
 
             final Preference dim = findPreference(getString(R.string.pref_dim_key));
             dim.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {

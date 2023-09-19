@@ -76,13 +76,6 @@ public class SetActivity extends AppCompatActivity {
         // Set wallpaper preview
         wpPreview.init(catalogItem.getId());
 
-        // Set title text
-        titleText = findViewById(R.id.set_text_title);
-        titleText.setText(catalogItem.getTitle());
-
-        // Set author text
-        authorText = findViewById(R.id.set_text_author);
-        authorText.setText(catalogItem.getAuthor());
 
         // Add magic button
         wpPreview.setOnClickListener(new View.OnClickListener() {
