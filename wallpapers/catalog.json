@@ -19,36 +19,6 @@
     "author": "Mosque",
     "site": "",
     "test": false
-  },
-  {
-    "id": "00005",
-    "title": "QM",
-    "author": "QM",
-    "site": "",
-    "test": false
-  },
-  {
-    "id": "00007",
-    "title": "QM7",
-    "author": "QM7",
-    "site": "",
-    "test": false
-  }
-  ,
-  {
-    "id": "00008",
-    "title": "QM8",
-    "author": "QM8",
-    "site": "",
-    "test": false
-  }
-  ,
-  {
-    "id": "00009",
-    "title": "QM9",
-    "author": "QM9",
-    "site": "",
-    "test": false
   }
   
 ]
